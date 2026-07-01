@@ -1,0 +1,85 @@
+<fullscreen-menu data-background-color="{{ section.settings.fullscreen_menu_bg_color }}">
+  <button class="menu-toggle" aria-expanded="false" aria-controls="fullscreen-menu">
+    <span class="visually-hidden">{{ 'sections.header.menu' | t }}</span>
+    {% render 'icon-hamburger' %}
+  </button>
+  
+  <div id="fullscreen-menu" class="fullscreen-menu" 
+    {% if section.settings.fullscreen_menu_bg_color != blank %}
+      style="background-color: {{ section.settings.fullscreen_menu_bg_color }};"
+    {% endif %}
+  >
+    {% if section.settings.fullscreen_menu_bg_image != blank %}
+      <div class="fullscreen-menu__bg-image">
+        {{ section.settings.fullscreen_menu_bg_image | image_url: width: 1920 | image_tag: 
+          loading: 'lazy',
+          class: 'fullscreen-menu__bg-image-tag'
+        }}
+      </div>
+    {% endif %}
+    
+    <div class="fullscreen-menu__content">
+      <button class="fullscreen-menu__close">
+        <span class="visually-hidden">{{ 'accessibility.close' | t }}</span>
+        {% render 'icon-close' %}
+      </button>
+      
+      <div class="fullscreen-menu__columns">
+        <div class="fullscreen-menu__menu-column">
+          <ul class="fullscreen-menu__list" role="list">
+            {%- for link in section.settings.menu.links -%}
+              <li class="fullscreen-menu__item" data-image="{{ link.title | handle }}">
+                <a href="{{ link.url }}" class="fullscreen-menu__link{% if link.active %} fullscreen-menu__link--active{% endif %}">
+                  {{ link.title | escape }}
+                </a>
+                
+                {%- if link.links != blank -%}
+                  <ul class="fullscreen-menu__submenu" role="list">
+                    {%- for childlink in link.links -%}
+                      <li class="fullscreen-menu__item">
+                        <a href="{{ childlink.url }}" class="fullscreen-menu__link{% if childlink.active %} fullscreen-menu__link--active{% endif %}">
+                          {{ childlink.title | escape }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+        
+        <div class="fullscreen-menu__image-column">
+          {% for link in section.settings.menu.links %}
+            <img 
+              id="menu-image-{{ link.title | handle }}" 
+              class="fullscreen-menu__image" 
+              src="{{ link.title | handle | append: '.jpg' | file_url }}" 
+              alt="{{ link.title }}"
+              loading="lazy"
+              data-background-color="{{ section.settings.fullscreen_menu_bg_color }}"
+            >
+          {% endfor %}
+        </div>
+      </div>
+      
+      <!-- Sezione contatti spostata fuori dalle colonne per posizionarla in basso a destra -->
+      <div class="fullscreen-menu__contacts">
+        <h3 class="fullscreen-menu__contacts-title">Contattaci</h3>
+        {% if section.settings.phone_number != blank %}
+          <div class="fullscreen-menu__contact-item">
+            <span class="fullscreen-menu__contact-label">Telefono:</span>
+            <a href="tel:{{ section.settings.phone_number }}" class="fullscreen-menu__contact-link">{{ section.settings.phone_number }}</a>
+          </div>
+        {% endif %}
+        
+        {% if section.settings.email != blank %}
+          <div class="fullscreen-menu__contact-item">
+            <span class="fullscreen-menu__contact-label">Email:</span>
+            <a href="mailto:{{ section.settings.email }}" class="fullscreen-menu__contact-link">{{ section.settings.email }}</a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</fullscreen-menu>
