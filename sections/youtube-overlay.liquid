@@ -1,0 +1,294 @@
+{{ 'video-section.css' | asset_url | stylesheet_tag }}
+{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+
+<style>
+  .youtube-overlay-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .youtube-overlay-section__video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    overflow: hidden;
+  }
+
+  .youtube-overlay-section__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .youtube-overlay-section__overlay {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    pointer-events: none; /* Permette di cliccare attraverso l'immagine */
+  }
+
+  .youtube-overlay-section__overlay--top {
+    top: 0;
+  }
+
+  .youtube-overlay-section__overlay--bottom {
+    bottom: 0;
+  }
+
+  .youtube-overlay-section__overlay img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .youtube-overlay-section__mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  .youtube-overlay-section__mask svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+</style>
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="youtube-overlay-section section-{{ section.id }}-padding">
+    {%- if section.settings.heading != blank -%}
+      <div class="page-width">
+        <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+          <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.overlay_image != blank and section.settings.overlay_position == 'top' -%}
+      <div class="youtube-overlay-section__overlay youtube-overlay-section__overlay--top">
+        <img
+          srcset="{{ section.settings.overlay_image | image_url: width: 400 }} 400w,
+                  {{ section.settings.overlay_image | image_url: width: 800 }} 800w,
+                  {{ section.settings.overlay_image | image_url: width: 1200 }} 1200w,
+                  {{ section.settings.overlay_image | image_url: width: 2000 }} 2000w"
+          src="{{ section.settings.overlay_image | image_url: width: 1200 }}"
+          sizes="100vw"
+          alt="{{ section.settings.overlay_image.alt | escape }}"
+          loading="lazy"
+          width="{{ section.settings.overlay_image.width }}"
+          height="{{ section.settings.overlay_image.height }}"
+        >
+      </div>
+    {%- endif -%}
+
+    {%- if section.settings.use_mask and section.settings.mask_svg != blank -%}
+      <div class="youtube-overlay-section__mask">
+        {{ section.settings.mask_svg }}
+      </div>
+    {%- endif -%}
+
+    <div class="youtube-overlay-section__video-container">
+      {%- liquid
+        assign video_id = section.settings.video_url.id
+        assign loop_param = ''
+        assign mute_param = ''
+        
+        if section.settings.enable_video_looping
+          assign loop_param = '&loop=1&playlist=' | append: video_id
+        endif
+        
+        if section.settings.enable_video_mute
+          assign mute_param = '&mute=1'
+        endif
+      -%}
+      
+      {%- if section.settings.video_url.type == 'youtube' -%}
+        <iframe
+          class="youtube-overlay-section__video"
+          src="https://www.youtube.com/embed/{{ video_id }}?autoplay=1&controls=1&enablejsapi=1{{ loop_param }}{{ mute_param }}&rel=0&modestbranding=1"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          title="{{ section.settings.description | escape }}"
+        ></iframe>
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.overlay_image != blank and section.settings.overlay_position == 'bottom' -%}
+      <div class="youtube-overlay-section__overlay youtube-overlay-section__overlay--bottom">
+        <img
+          srcset="{{ section.settings.overlay_image | image_url: width: 400 }} 400w,
+                  {{ section.settings.overlay_image | image_url: width: 800 }} 800w,
+                  {{ section.settings.overlay_image | image_url: width: 1200 }} 1200w,
+                  {{ section.settings.overlay_image | image_url: width: 2000 }} 2000w"
+          src="{{ section.settings.overlay_image | image_url: width: 1200 }}"
+          sizes="100vw"
+          alt="{{ section.settings.overlay_image.alt | escape }}"
+          loading="lazy"
+          width="{{ section.settings.overlay_image.width }}"
+          height="{{ section.settings.overlay_image.height }}"
+        >
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "YouTube con Overlay",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Video YouTube con Overlay",
+      "label": "Titolo"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Medio"
+        },
+        {
+          "value": "h1",
+          "label": "Grande"
+        },
+        {
+          "value": "h0",
+          "label": "Extra grande"
+        }
+      ],
+      "default": "h1",
+      "label": "Dimensione del titolo"
+    },
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "accept": ["youtube"],
+      "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+      "label": "URL Video YouTube",
+      "info": "Inserisci l'URL di un video YouTube"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Descrizione del video",
+      "info": "Utilizzata per l'accessibilità"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_looping",
+      "label": "Abilita loop video",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_video_mute",
+      "label": "Disattiva audio",
+      "default": false
+    },
+    {
+      "type": "header",
+      "content": "Immagine Overlay"
+    },
+    {
+      "type": "image_picker",
+      "id": "overlay_image",
+      "label": "Immagine overlay",
+      "info": "Immagine PNG da sovrapporre al video"
+    },
+    {
+      "type": "select",
+      "id": "overlay_position",
+      "options": [
+        {
+          "value": "top",
+          "label": "In alto"
+        },
+        {
+          "value": "bottom",
+          "label": "In basso"
+        }
+      ],
+      "default": "top",
+      "label": "Posizione overlay"
+    },
+    {
+      "type": "header",
+      "content": "Maschera SVG (Opzionale)"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_mask",
+      "label": "Usa maschera SVG",
+      "default": false,
+      "info": "Attiva per utilizzare una maschera SVG invece dell'immagine overlay"
+    },
+    {
+      "type": "html",
+      "id": "mask_svg",
+      "label": "Codice SVG",
+      "info": "Inserisci il codice SVG per la maschera"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Schema colori",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "Padding"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding superiore",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding inferiore",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "YouTube con Overlay"
+    }
+  ]
+}
+{% endschema %}

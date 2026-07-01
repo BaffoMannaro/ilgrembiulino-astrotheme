@@ -1,0 +1,190 @@
+{{ 'section-custom-benefits.css' | asset_url | stylesheet_tag }}
+
+<div class="custom-benefits color-{{ section.settings.color_scheme }} gradient" style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+  <div class="page-width">
+    {% if section.settings.title != blank %}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title {{ section.settings.heading_size }}">
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {% endif %}
+    
+    <div class="benefits-container">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'benefit' %}
+            <div class="benefit-box{% if section.settings.enable_animation %} animate-float{% endif %}" {{ block.shopify_attributes }}>
+              {% if block.settings.image != blank %}
+                <img src="{{ block.settings.image | img_url: '240x' }}" alt="{{ block.settings.heading | escape }}" class="image-size-{{ section.settings.image_size }}">
+              {% endif %}
+              <div class="benefit-content">
+                {% if block.settings.heading != blank %}
+                  <h3>{{ block.settings.heading | escape }}</h3>
+                {% endif %}
+                {% if block.settings.text != blank %}
+                  <p>{{ block.settings.text | escape }}</p>
+                {% endif %}
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Benefits con icone",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "I nostri vantaggi",
+      "label": "Titolo della sezione"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "Piccolo"
+        },
+        {
+          "value": "h1",
+          "label": "Medio"
+        },
+        {
+          "value": "h0",
+          "label": "Grande"
+        }
+      ],
+      "default": "h1",
+      "label": "Dimensione titolo"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "background-1",
+          "label": "Sfondo chiaro, testo scuro"
+        },
+        {
+          "value": "background-2",
+          "label": "Sfondo scuro, testo chiaro"
+        },
+        {
+          "value": "inverse",
+          "label": "Sfondo chiaro, testo scuro inverso"
+        }
+      ],
+      "default": "background-1",
+      "label": "Schema colori"
+    },
+    {
+      "type": "select",
+      "id": "image_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Piccola (48px)"
+        },
+        {
+          "value": "medium",
+          "label": "Media (64px)"
+        },
+        {
+          "value": "large",
+          "label": "Grande (80px)"
+        }
+      ],
+      "default": "medium",
+      "label": "Dimensione icone"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding superiore",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "label": "Padding inferiore",
+      "default": 40
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_animation",
+      "default": true,
+      "label": "Abilita animazione float"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "benefit",
+      "name": "Benefit",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Icona"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Titolo benefit",
+          "label": "Titolo"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Descrizione del benefit",
+          "label": "Testo"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Benefits con icone",
+      "blocks": [
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Spedizione gratuita",
+            "text": "Per ordini superiori a 55€"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Garanzia rimborsi",
+            "text": "Effettua il tuo reso entro 14 giorni"
+          }
+        },
+        {
+          "type": "benefit",
+          "settings": {
+            "heading": "Chat 24/7",
+            "text": "Richiedi in chat modifiche, personalizzazioni a richiesta"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

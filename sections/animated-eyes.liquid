@@ -1,0 +1,22 @@
+<div class="section-{{ section.id }}-padding">
+  {% render 'animated-eyes' %}
+</div>
+
+{% schema %}
+{
+  "name": "Occhi Animati",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Immagine di sfondo"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Occhi Animati",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
