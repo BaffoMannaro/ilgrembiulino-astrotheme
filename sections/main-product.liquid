@@ -56,27 +56,32 @@
     }
 
     {%- comment -%}
-      Posizioni/rotazioni overlay = per-prodotto via metafield (namespace "overlay"),
-      valore unico condiviso desktop/mobile. Fallback a 0 se il metafield è vuoto.
-      La patch scuola resta invece configurata da section.settings (globale).
+      Overlay per-prodotto via metafield (namespace "overlay"). Input minimi:
+        - cuore_top: top del nome Lato cuore; la patch usa top = cuore_top + 1
+        - left: left condiviso da patch e nome Lato cuore
+        - colletto_top / colletto_left / colletto_rotation: nome Colletto
+      Right/bottom = auto (posizionamento solo da top+left). Cuore senza rotazione.
+      La patch scuola resta configurata da section.settings (globale).
     {%- endcomment -%}
+    {%- assign mf_cuore_top = product.metafields.overlay.cuore_top.value | default: 0 -%}
+    {%- assign mf_left = product.metafields.overlay.left.value | default: 0 -%}
     #MainProduct-{{ section.id }}{
-      --patch-overlay-top:{{ product.metafields.overlay.patch_top.value | default: 0 }}%;
-      --patch-overlay-right:{{ product.metafields.overlay.patch_right.value | default: 0 }}%;
-      --patch-overlay-bottom:{{ product.metafields.overlay.patch_bottom.value | default: 0 }}%;
-      --patch-overlay-left:{{ product.metafields.overlay.patch_left.value | default: 0 }}%;
+      --patch-overlay-top:{{ mf_cuore_top | plus: 1 }}%;
+      --patch-overlay-right:auto;
+      --patch-overlay-bottom:auto;
+      --patch-overlay-left:{{ mf_left }}%;
       --school-patch-overlay-top:{{ section.settings.school_patch_overlay_top }}%;
       --school-patch-overlay-right:{{ section.settings.school_patch_overlay_right }}%;
       --school-patch-overlay-bottom:{{ section.settings.school_patch_overlay_bottom }}%;
       --school-patch-overlay-left:{{ section.settings.school_patch_overlay_left }}%;
-      --text-pos-cuore-top:{{ product.metafields.overlay.cuore_top.value | default: 0 }}%;
-      --text-pos-cuore-right:{{ product.metafields.overlay.cuore_right.value | default: 0 }}%;
-      --text-pos-cuore-bottom:{{ product.metafields.overlay.cuore_bottom.value | default: 0 }}%;
-      --text-pos-cuore-left:{{ product.metafields.overlay.cuore_left.value | default: 0 }}%;
-      --text-pos-cuore-rotation:{{ product.metafields.overlay.cuore_rotation.value | default: 0 }}deg;
+      --text-pos-cuore-top:{{ mf_cuore_top }}%;
+      --text-pos-cuore-right:auto;
+      --text-pos-cuore-bottom:auto;
+      --text-pos-cuore-left:{{ mf_left }}%;
+      --text-pos-cuore-rotation:0deg;
       --text-pos-colletto-top:{{ product.metafields.overlay.colletto_top.value | default: 0 }}%;
-      --text-pos-colletto-right:{{ product.metafields.overlay.colletto_right.value | default: 0 }}%;
-      --text-pos-colletto-bottom:{{ product.metafields.overlay.colletto_bottom.value | default: 0 }}%;
+      --text-pos-colletto-right:auto;
+      --text-pos-colletto-bottom:auto;
       --text-pos-colletto-left:{{ product.metafields.overlay.colletto_left.value | default: 0 }}%;
       --text-pos-colletto-rotation:{{ product.metafields.overlay.colletto_rotation.value | default: 0 }}deg;
     }
