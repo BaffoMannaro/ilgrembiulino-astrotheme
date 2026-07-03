@@ -63,8 +63,8 @@
       Right/bottom = auto (posizionamento solo da top+left). Cuore senza rotazione.
       La patch scuola resta configurata da section.settings (globale).
     {%- endcomment -%}
-    {%- assign mf_cuore_top = product.metafields.overlay.cuore_top.value | default: 0 -%}
-    {%- assign mf_left = product.metafields.overlay.left.value | default: 0 -%}
+    {%- assign mf_cuore_top = product.metafields.custom.overlay_cuore_top.value | default: 0 -%}
+    {%- assign mf_left = product.metafields.custom.overlay_left.value | default: 0 -%}
     #MainProduct-{{ section.id }}{
       --patch-overlay-top:{{ mf_cuore_top | plus: 1 }}%;
       --patch-overlay-right:auto;
@@ -79,11 +79,11 @@
       --text-pos-cuore-bottom:auto;
       --text-pos-cuore-left:{{ mf_left }}%;
       --text-pos-cuore-rotation:0deg;
-      --text-pos-colletto-top:{{ product.metafields.overlay.colletto_top.value | default: 0 }}%;
+      --text-pos-colletto-top:{{ product.metafields.custom.overlay_colletto_top.value | default: 0 }}%;
       --text-pos-colletto-right:auto;
       --text-pos-colletto-bottom:auto;
-      --text-pos-colletto-left:{{ product.metafields.overlay.colletto_left.value | default: 0 }}%;
-      --text-pos-colletto-rotation:{{ product.metafields.overlay.colletto_rotation.value | default: 0 }}deg;
+      --text-pos-colletto-left:{{ product.metafields.custom.overlay_colletto_left.value | default: 0 }}%;
+      --text-pos-colletto-rotation:{{ product.metafields.custom.overlay_colletto_rotation.value | default: 0 }}deg;
     }
 
     .product__media-patch-applicate{
