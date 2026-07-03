@@ -87,11 +87,6 @@
           sizes: sizes,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
-      {% if position == 1 or position == '1' %}
-        <div class="product__media-patch-applicate" aria-hidden="true"></div>
-        <div class="product__media-patch-text-applicate" aria-hidden="true"></div>
-        <div class="product__media-school-patch-applicate" aria-hidden="true"></div>
-      {% endif %}
     </div>
     <button
       class="product__media-toggle quick-add-hidden product__media-zoom-{{ section.settings.image_zoom }}"
@@ -133,11 +128,6 @@
           sizes: sizes,
           widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
       }}
-      {% if position == 1 or position == '1' %}
-        <div class="product__media-patch-applicate" aria-hidden="true"></div>
-        <div class="product__media-patch-text-applicate" aria-hidden="true"></div>
-        <div class="product__media-school-patch-applicate" aria-hidden="true"></div>
-      {% endif %}
     </button>
     <template>
       {%- liquid
@@ -179,4 +169,14 @@
       </deferred-media>
     {%- endif -%}
   {%- endif -%}
+
+  {%- comment -%}
+    Overlay patch/nome renderizzate qui (figlie di .product-media-container, che ha overflow:visible)
+    e non dentro .media (overflow:hidden), così la scritta ruotata non viene tagliata.
+  {%- endcomment -%}
+  {% if position == 1 or position == '1' %}
+    <div class="product__media-patch-applicate" aria-hidden="true"></div>
+    <div class="product__media-patch-text-applicate" aria-hidden="true"></div>
+    <div class="product__media-school-patch-applicate" aria-hidden="true"></div>
+  {% endif %}
 </div>
