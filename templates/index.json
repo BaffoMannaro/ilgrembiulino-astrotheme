@@ -1,1 +1,778 @@
-{"sections":{"rich_text_qJmM8X":{"type":"rich-text","blocks":{"text_j3DHfR":{"type":"text","settings":{"text":"<p><strong>PERSONALIZZA CON PATCH E RICAMI<\/strong><\/p>"}},"heading_7neAUC":{"type":"heading","settings":{"heading":"Acquista il grembiule perfetto per i tuoi bimbi!","heading_size":"h1"}}},"block_order":["text_j3DHfR","heading_7neAUC"],"custom_css":["h2 {transform: skewY(-7deg); font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 5.5vw, 72px); max-width: 100%; margin: auto; line-height: 110%;}","p {transform: skewY(-7deg); line-height: 110%; padding-bottom: 10px; text-wrap: balance;}","@media (min-width: 768px) {h2 {max-width: 100%; }}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-76801a77-90c5-48fc-aa74-014c29761c77","full_width":true,"padding_top":100,"padding_bottom":52}},"image_banner":{"type":"image-banner","blocks":{"button":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"shopify:\/\/collections\/all","button_style_secondary_1":true,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button"],"custom_css":["h2 {transform: skewY(-7deg); font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 5.5vw, 72px); max-width: 100%; margin: auto; line-height: 100%; margin-top: -20px;}","p {transform: skewY(-7deg);}","@media (min-width: 768px) {h2 {max-width: 65%; }}","@media (min-width: 768px) {p {margin-top: -10px; }}","#Banner-template--24989804331334__image_banner {z-index: 1;}"],"settings":{"image":"shopify:\/\/shop_images\/hero_principale_6f4dfae5-f2be-45a8-8f2e-d2284e00d2ad.jpg","image_mobile":"shopify:\/\/shop_images\/hero_principale_mobile.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"top-center","desktop_content_alignment":"center","mobile_content_alignment":"center","mobile_content_position":"top","show_text_box":false,"show_text_below":false}},"17522467659b6d9e7c":{"type":"apps","blocks":{"feedaty_official_carousel_widget_PhDQdT":{"type":"shopify:\/\/apps\/feedaty-official\/blocks\/carousel-widget\/1597c10b-7e15-4dee-9287-4aa2114f0e9c","settings":{"merchant_code":"10215410","data_variant":"carosello-2","data_id":"selettore9"}}},"block_order":["feedaty_official_carousel_widget_PhDQdT"],"custom_css":["{margin: 30px auto;}"],"settings":{"include_margins":true}},"multicolumn_UDtjW4":{"type":"multicolumn","blocks":{"column_wPBLk3":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Asilo1.jpg","image_hover":"shopify:\/\/shop_images\/grembiuli_asilo_hover.jpg","title":"","text":"","link_label":"GREMBIULI PER ASILO","link":"shopify:\/\/collections\/collezione-asilo"}},"column_JNCyFh":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Elementare1_4c745563-db49-49ae-bcb8-9923a3bdf892.jpg","image_hover":"shopify:\/\/shop_images\/grembiuli_scuola_hover.jpg","title":"","text":"","link_label":"GREMBIULI PER SCUOLA","link":"shopify:\/\/collections\/collezione-scuola"}}},"block_order":["column_wPBLk3","column_JNCyFh"],"custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 52px); margin: auto; line-height: 100%; margin-top: 40px; \/* tieni questo *\/ mix-blend-mode: darken; text-align: center; margin-bottom: 60px;}","@media (min-width: 1024px) {h2 {max-width: 45%; }}","a {font-size: 20px;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"Asilo o scuola elementare?","heading_size":"h1","background_position":"center","image_width":"full","image_ratio":"portrait","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"center","background_style":"none","color_scheme":"","columns_mobile":"1","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}},"collection_list_LdPRNf":{"type":"collection-list","blocks":{"featured_collection_TQiJdU":{"type":"featured_collection","settings":{"collection":"grembiule-asilo-bimba"}},"featured_collection_JzkFRE":{"type":"featured_collection","settings":{"collection":"grembiule-scuola-bimba"}}},"block_order":["featured_collection_TQiJdU","featured_collection_JzkFRE"],"disabled":true,"custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 52px); max-width: 55%; margin: auto; line-height: 100%; margin-top: -10px; mix-blend-mode: darken; text-align: center; margin-bottom: 60px; margin-top: 40px;}"],"name":"t:sections.collection-list.presets.name","settings":{"title":"Asilo o scuola elementare?","heading_size":"h1","image_ratio":"portrait","columns_desktop":2,"color_scheme":"","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":false,"padding_top":60,"padding_bottom":60}},"featured_collection_Vetbc7":{"type":"featured-collection","custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}","@media (min-width: 1024px) {h2 {max-width: 55%; }}","h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"],"name":"t:sections.featured-collection.presets.name","settings":{"collection":"collezione-asilo","products_to_show":8,"title":"Da ora inizia una nuova avventura!","heading_size":"h1","description":"","show_description":false,"description_style":"body","background_image":"shopify:\/\/shop_images\/elementare_hero2.jpg","background_position":"center","background_opacity":0,"columns_desktop":3,"enable_desktop_slider":true,"full_width":false,"show_view_all":false,"view_all_style":"solid","color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":true,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":true,"padding_top":100,"padding_bottom":100}},"featured_collection_MGG4wQ":{"type":"featured-collection","custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}","@media (min-width: 1024px) {h2 {max-width: 55%; }}","h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"],"name":"t:sections.featured-collection.presets.name","settings":{"collection":"collezione-scuola","products_to_show":8,"title":"Prepara lo zaino, e via col grembiule!","heading_size":"h1","description":"","show_description":false,"description_style":"body","background_image":"shopify:\/\/shop_images\/scolastico_hero3.jpg","background_position":"bottom","background_opacity":0,"columns_desktop":3,"enable_desktop_slider":true,"full_width":false,"show_view_all":false,"view_all_style":"solid","color_scheme":"scheme-3","image_ratio":"portrait","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":true,"padding_top":100,"padding_bottom":100}},"featured_collection_3iWgQE":{"type":"featured-collection","custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}","@media (min-width: 1024px) {h2 {max-width: 55%; }}","h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"],"name":"t:sections.featured-collection.presets.name","settings":{"collection":"divise-scolastiche","products_to_show":7,"title":"Personalizza la divisa scolastica!","heading_size":"h1","description":"","show_description":false,"description_style":"body","background_image":"shopify:\/\/shop_images\/scolastico_hero4.jpg","background_position":"top","background_opacity":0,"columns_desktop":3,"enable_desktop_slider":true,"full_width":false,"show_view_all":true,"view_all_style":"solid","color_scheme":"scheme-3","image_ratio":"square","image_shape":"default","show_secondary_image":false,"show_vendor":false,"show_rating":false,"quick_add":"none","columns_mobile":"1","swipe_on_mobile":true,"padding_top":100,"padding_bottom":100}},"custom_benefits_hJizPD":{"type":"custom-benefits","blocks":{"benefit_UTJPdD":{"type":"benefit","settings":{"image":"shopify:\/\/shop_images\/benefit1.png","heading":"Spedizione gratuita","text":"Per ordini superiori a 99,99€"}},"benefit_7CQaNz":{"type":"benefit","settings":{"image":"shopify:\/\/shop_images\/benefit2.png","heading":"Garanzia rimborsi","text":"Effettua il tuo reso entro 14 giorni"}},"benefit_BpXMyB":{"type":"benefit","settings":{"image":"shopify:\/\/shop_images\/benefit3.png","heading":"Chat 24\/7","text":"Richiedi in chat modifiche, personalizzazioni a richiesta"}}},"block_order":["benefit_UTJPdD","benefit_7CQaNz","benefit_BpXMyB"],"custom_css":[".custom-benefits {padding-top: 140px !important; padding-bottom: 140px !important;}","p {line-height: 120%; margin-top: 10px;}","h3 {font-weight: 600 !important;}"],"name":"Benefits con icone","settings":{"title":"","heading_size":"h1","color_scheme":"background-1","image_size":"large","padding_top":40,"padding_bottom":40,"enable_animation":true}},"custom_liquid_mUD4Fe":{"type":"custom-liquid","disabled":true,"name":"t:sections.custom-liquid.presets.name","settings":{"custom_liquid":"<style>\n    body {\n      margin: 0;\n      padding: 0;\n      background-color: #fafafa;\n      font-family: Arial, sans-serif;\n    }\n\n    .benefits-container {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding: 40px 20px;\n      max-width: 1200px;\n      margin: 0 auto;\n    }\n\n    .benefit-box {\n      display: flex;\n      align-items: center;\n      width: 100%;\n      margin-bottom: 30px;\n    }\n\n    .benefit-box img {\n      width: 64px;\n      height: auto;\n      margin-right: 20px;\n    }\n\n\n\n\n    @media (min-width: 768px) {\n      .benefit-box {\n        width: 30%;\n        margin-bottom: 0;\n      }\n    }\n  <\/style>\n<\/head>\n<body>\n\n  <div class=\"benefits-container\">\n    <div class=\"benefit-box\">\n      <img src=\"icon1.png\" alt=\"Spedizione gratuita\">\n      <div class=\"benefit-content\">\n        <h3>Spedizione gratuita<\/h3>\n        <p>Per ordini superiori a 55€<\/p>\n      <\/div>\n    <\/div>\n    <div class=\"benefit-box\">\n      <img src=\"icon2.png\" alt=\"Garanzia rimborsi\">\n      <div class=\"benefit-content\">\n        <h3>Garanzia rimborsi<\/h3>\n        <p>Effettua il tuo reso entro 14 giorni<\/p>\n      <\/div>\n    <\/div>\n    <div class=\"benefit-box\">\n      <img src=\"icon3.png\" alt=\"Chat 24\/7\">\n      <div class=\"benefit-content\">\n        <h3>Chat 24\/7<\/h3>\n        <p>Richiedi in chat modifiche, personalizzazioni a richiesta<\/p>\n      <\/div>\n    <\/div>\n  <\/div>\n\n<\/body>","color_scheme":"","padding_top":40,"padding_bottom":52}},"rich_text_yc3XBN":{"type":"rich-text","blocks":{"text_LneELj":{"type":"text","settings":{"text":"<p>E SE AGGIUNGESSIMO...<\/p>"}},"heading_7VFTiW":{"type":"heading","settings":{"heading":"il suo nome o una patch?","heading_size":"h1"}},"button_pFrpjM":{"type":"button","settings":{"button_label":"SCOPRI COME","button_link":"shopify:\/\/pages\/i-nostri-lavori","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_LneELj","heading_7VFTiW","button_pFrpjM"],"custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center;}","@media (min-width: 1024px) {h2 {max-width: 55%; }}","p {transform: skewY(-7deg);}",".button {margin-top: 40px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-2","full_width":true,"padding_top":100,"padding_bottom":0}},"rich_text_MQFWWt":{"type":"rich-text","blocks":{"text_VfiL3R":{"type":"text","settings":{"text":"<p>E SE AGGIUNGESSIMO...<\/p>"}},"heading_VqEkic":{"type":"heading","settings":{"heading":"il suo nome o una patch?","heading_size":"h1"}},"button_drgNjp":{"type":"button","settings":{"button_label":"SCOPRI COME","button_link":"shopify:\/\/pages\/i-nostri-lavori","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["text_VfiL3R","heading_VqEkic","button_drgNjp"],"disabled":true,"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-2","full_width":true,"padding_top":100,"padding_bottom":0}},"image_banner_YEfcej":{"type":"image-banner","name":"t:sections.image-banner.presets.name","settings":{"image":"shopify:\/\/shop_images\/hero_patch.jpg","image_mobile":"shopify:\/\/shop_images\/hero_patch_mobile.jpg","image_overlay_opacity":0,"image_height":"adapt","desktop_content_position":"top-left","desktop_content_alignment":"center","mobile_content_alignment":"center","mobile_content_position":"middle","show_text_box":true,"show_text_below":true}},"rich_text_VJ4wq4":{"type":"rich-text","blocks":{"text_BwgzPH":{"type":"text","settings":{"text":"<p>DI CHE TEAM SEI?<\/p>"}},"heading_BGRqQb":{"type":"heading","settings":{"heading":"Grembiuli con zip o bottone?","heading_size":"h1"}}},"block_order":["text_BwgzPH","heading_BGRqQb"],"custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center;}","@media (min-width: 1024px) {h2 {max-width: 55%; }}","p {transform: skewY(-7deg);}",".button {margin-top: 40px;}"],"name":"t:sections.rich-text.presets.name","settings":{"desktop_content_position":"center","content_alignment":"center","color_scheme":"scheme-1","full_width":true,"padding_top":100,"padding_bottom":0}},"multicolumn_z6HRPm":{"type":"multicolumn","blocks":{"column_eEUpnF":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/grembiule_asilo_zip_1b73442c-a3b6-444a-907a-59a24b53403b.jpg","title":"","text":"","link_label":"Grembiuli asilo con zip","link":"https:\/\/ilgrembiulino.com\/collections\/collezione-asilo?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=con+zip&sort_by=best-selling"}},"column_tzkdbk":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/grembiule_asilo_bottone.png","title":"","text":"","link_label":"Grembiuli asilo con bottone","link":"https:\/\/ilgrembiulino.com\/collections\/collezione-asilo?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=abbottonatura+centrale&filter.p.m.custom.tipologia_grembiule=abbottonatura+laterale&sort_by=best-selling"}},"column_xxUN4N":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/grembiule_scuola_bottone.png","title":"","text":"","link_label":"Grembiuli scuola con bottone","link":"https:\/\/ilgrembiulino.com\/collections\/collezione-scuola?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=abbottonatura+centrale&filter.p.m.custom.tipologia_grembiule=abbottonatura+laterale&sort_by=best-selling"}},"column_AUWFMU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/grembiule_scuola_zip.jpg","title":"","text":"","link_label":"Grembiuli scuola con zip","link":"https:\/\/ilgrembiulino.com\/collections\/collezione-scuola?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=con+zip&sort_by=best-selling"}}},"block_order":["column_eEUpnF","column_tzkdbk","column_xxUN4N","column_AUWFMU"],"custom_css":[".multicolumn-card__info {text-align: center; background-color: #fff; margin-top: -30px;}",".link {text-decoration: none; display: inline-flex; align-items: center; color: #333;}",".link-text {transition: color 0.3s ease, font-weight 0.3s ease; font-weight: normal;}",".link:hover .link-text {color: #0077cc; font-weight: bold;}"],"name":"t:sections.multicolumn.presets.name","settings":{"title":"","heading_size":"h1","background_image":"shopify:\/\/shop_images\/bottone_4b7a7d91-5f54-442f-8f12-ab7eb730d605.jpg","background_position":"top","image_width":"full","image_ratio":"portrait","button_label":"","button_link":"","columns_desktop":2,"column_alignment":"left","background_style":"none","color_scheme":"scheme-2","columns_mobile":"1","swipe_on_mobile":false,"padding_top":100,"padding_bottom":100}},"175224620929428f15":{"type":"apps","custom_css":[],"settings":{"include_margins":true}},"featured_blog_pLcCqM":{"type":"featured-blog","name":"t:sections.featured-blog.presets.name","settings":{"blog":"news","post_limit":3,"heading":"Articoli del blog","heading_size":"h1","columns_desktop":3,"show_view_all":true,"show_image":true,"show_date":true,"show_author":false,"color_scheme":"","padding_top":36,"padding_bottom":36}},"image_with_text_6GMNEP":{"type":"image-with-text","blocks":{"heading_iteMTh":{"type":"heading","settings":{"heading":"","heading_size":"h1"}},"text_jTFgt4":{"type":"text","settings":{"text":"<p>I grembiuli de \"ilgrembiulino.com\" sono firmati SIGGI GROUP, sinonimo di qualità, attenzione ai dettagli e esperienza nel settore.<\/p>","text_style":"body"}}},"block_order":["heading_iteMTh","text_jTFgt4"],"custom_css":["div {background-color: #fafafa;}","img {mix-blend-mode: darken;}","@media (min-width: 768px) {div {justify-content: center; align-content: center; } .image-with-text__media {justify-self: center; } img {height: auto; align-self: center; left: 20%; position: relative; } p {width: 60%; }}"],"name":"t:sections.image-with-text.presets.name","settings":{"image":"shopify:\/\/shop_images\/SIGGI-LOGO-2017-01-new_bd1a3b55-fd79-4a51-ba1d-acb3339d6236.jpg","height":"small","desktop_image_width":"small","layout":"image_first","image_behavior":"none","content_layout":"overlap","desktop_content_position":"middle","desktop_content_alignment":"left","mobile_content_alignment":"left","section_color_scheme":"","color_scheme":"","padding_top":36,"padding_bottom":36}},"custom_liquid_E7FqF7":{"type":"custom-liquid","custom_css":[".tutto {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0560\/4596\/1267\/files\/Prova_animazione.jpg?v=1747856526\"); background-size: cover; background-position: center center; background-repeat: no-repeat; background-color: #fafafa;}","@media (max-width: 768px) {.tutto {background-size: 170%; background-position: bottom center; background-repeat: no-repeat; } .animated-eyes-container {transform: scale(0.4); transform-origin: bottom center; height: 400px; padding-bottom: 80px; }}"],"name":"t:sections.custom-liquid.presets.name","settings":{"custom_liquid":"<div class=\"tutto\"><div class=\"animated-eyes-container\">\n  <style> \n    .animated-eyes-container {\n      width: 100%;\nheight:650px;\n      display: flex;\n      justify-content: center;\n      align-items: end;\n      position: relative;\n      z-index: 1;\n    }\n\n    \n    .contain-eyes { \n      margin: 180px auto; \n      width: 400px; \n      position: relative;\n      z-index: 2;\n    } \n\n    \n    .outer-eye { \n      position: relative; \n      display: inline-block; \n      background: white !important; \n      border-radius: 50% !important; \n      width: 150px !important; \n      height: 130px !important; \n      margin: 0 10px;\n      overflow: visible !important;\ntransform: rotate(0.10turn);\n    } \n    \n    .outer-eye-2 { \n      left: 0px; \n    } \n    \n    .inner-eye { \n      position: absolute !important; \n      top: 45px !important;\n      left: 75px !important;\n      background: black !important; \n      border-top-left-radius: 50% !important; \nborder-bottom-left-radius: 40% !important; \nborder-bottom-right-radius: 30% !important; \nborder-top-right-radius: 30% !important; \n      width: 60px !important; \n      height: 60px !important; \n      animation: shifty 3s infinite !important; \n      z-index: 5 !important;\n      display: block !important;\n    } \n    \n    @keyframes shifty { \n      0% {\n        transform: translateX(0) translateY(0);\n      }\n      50% { \n        transform: translateX(-15px); \n      } \n      75% { \n        transform: translateY(-15px) translateX(-5px); \n      }\n      100% {\n        transform: translateX(0) translateY(0);\n      }\n    } \n  <\/style> \n  <div class=\"contain-eyes\">  \n    <div class=\"outer-eye\"> \n      <div class=\"inner-eye\"><\/div> \n    <\/div> \n    <div class=\"outer-eye outer-eye-2\"> \n      <div class=\"inner-eye\"><\/div> \n    <\/div> \n  <\/div>\n<\/div>\n<\/div>","color_scheme":"","padding_top":0,"padding_bottom":0}},"newsletter_xaPTfa":{"type":"newsletter","blocks":{"paragraph_WpQdJi":{"type":"paragraph","settings":{"text":"<p>ENTRA A FAR PARTE DEL TEAM!<\/p>"}},"heading_nKBRpf":{"type":"heading","settings":{"heading":"iscriviti alla newsletter!","heading_size":"h1"}},"email_form_NbNDGH":{"type":"email_form","settings":{}}},"block_order":["paragraph_WpQdJi","heading_nKBRpf","email_form_NbNDGH"],"custom_css":["h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 72px); max-width: 60%; margin: auto; margin-bottom: 60px; line-height: 100%; mix-blend-mode: darken;}","p {transform: skewY(-7deg);}","input {background-color: #fff;}"],"name":"t:sections.newsletter.presets.name","settings":{"color_scheme":"scheme-2","full_width":true,"padding_top":56,"padding_bottom":100}},"custom_liquid_3TQTcr":{"type":"custom-liquid","disabled":true,"custom_css":[".tutto {background-image: url(\"https:\/\/cdn.shopify.com\/s\/files\/1\/0560\/4596\/1267\/files\/Prova_animazione.jpg?v=1747856526\"); background-size: cover; \/* Copre tutta l'area tagliando ai lati *\/ background-position: center center; \/* Centra l'immagine *\/ background-repeat: no-repeat;}","@media (max-width: 768px) {.tutto {background-size: 180%; background-position: top center; background-repeat: no-repeat; }}","@media (max-width: 768px) {.animated-eyes-container {transform: scale(0.4); transform-origin: bottom center; height: 300px; }}"],"name":"t:sections.custom-liquid.presets.name","settings":{"custom_liquid":"<style>\n\n\n    \/* Colori (variabili SCSS convertite) *\/\n    :root {\n      --bg: #1C27B5;\n      --blue: #3C47D7;\n      --blue-s: #07129C;\n      --black: #000000;\n      --yellow: #FFC333;\n      --red-1: #810332;\n      --red-2: #400018;\n      --pink: #DC1B50;\n      --white: #ffffff;\n    }\n\n    body {\n\n      justify-content: center;\n      align-items: flex-end;\n      width: 100%;\n      height: 100%;\n      background-color: var(--bg);\n    }\n\n  \n\n    @media (max-width: 800px) { .main { transform: scale(.7); } }\n    @media (max-width: 700px) { .main { transform: scale(.6); } }\n    @media (max-width: 500px) { .main { transform: scale(.5); } }\n    @media (max-width: 400px) { .main { transform: scale(.3); } }\n\n    .monster {\n      display: flex;\n      justify-content: center;\n      position: relative;\n      width: 370px;\n      height: 490px;\n    }\n\n    .monster__face {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      flex-direction: column;\n      position: absolute;\n      top: 19%;\n      width: 75%;\n      height: 200px;\n    }\n\n    .monster__eyes {\n      display: flex;\n      justify-content: space-between;\n      width: 28%;\n      height: auto;\n      margin-bottom: 10px;\n    }\n\n    .monster__eye {\n      width: 17px;\n      height: 30px;\n      border-radius: 20px;\n      background: var(--black);\n    }\n\n    .monster__mouth {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n      width: 100%;\n      height: 0%;\n      overflow: hidden;\n      border: 25px solid var(--yellow);\n      border-radius: 100px;\n      background-color: var(--red-1);\n      animation: mouth 1.75s infinite;\n    }\n\n    .monster__mouth::before {\n      content: '';\n      position: absolute;\n      width: 150px;\n      height: 80px;\n      border-radius: 100px;\n      background-color: var(--red-2);\n    }\n\n    .monster__mouth::after {\n      content: '';\n      position: absolute;\n      bottom: -80px;\n      width: 160px;\n      height: 80px;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      background-color: var(--pink);\n      animation: tongue 1.75s infinite;\n    }\n\n    .monster__top {\n      position: absolute;\n      top: -30px;\n      width: 170px;\n      height: 30px;\n      border-bottom-left-radius: 10px;\n      border-bottom-right-radius: 10px;\n      background-color: var(--white);\n      z-index: 100;\n      animation: t 1.75s infinite;\n    }\n\n    .monster__bottom {\n      position: absolute;\n      bottom: 0;\n      width: 100px;\n      height: 30px;\n      border-top-left-radius: 10px;\n      border-top-right-radius: 10px;\n      background-color: var(--white);\n      z-index: 100;\n      animation: b 1.75s infinite;\n    }\n\n    @keyframes t {\n      0%, 10%, 80%, 100% { top: -30px; }\n      20% { top: 0px; }\n      30% { top: -20px; }\n      40% { top: 0px; }\n      50% { top: -25px; }\n      70% { top: 0px; }\n    }\n\n    @keyframes b {\n      0%, 10%, 80%, 100% { bottom: -30px; }\n      20% { bottom: 0px; }\n      30% { bottom: -20px; }\n      40% { bottom: 0px; }\n      50% { bottom: -25px; }\n      70% { bottom: 0px; }\n    }\n\n    @keyframes mouth {\n      0%, 10%, 100% { width: 100%; height: 0%; }\n      15% { width: 90%; height: 30%; }\n      20% { width: 50%; height: 70%; }\n      25% { width: 70%; height: 70%; }\n      30% { width: 80%; height: 60%; }\n      35% { width: 60%; height: 70%; }\n      40% { width: 55%; height: 75%; }\n      45% { width: 50%; height: 90%; }\n      50% { width: 40%; height: 70%; }\n      55% { width: 70%; height: 95%; }\n      60% { width: 40%; height: 50%; }\n      65% { width: 100%; height: 60%; }\n      70% { width: 100%; height: 70%; }\n      75% { width: 90%; height: 70%; }\n      80% { width: 50%; height: 70%; }\n      85% { width: 90%; height: 50%; }\n      85% { width: 40%; height: 70%; }\n      90% { width: 90%; height: 30%; }\n      95% { width: 100%; height: 10%; }\n    }\n\n    @keyframes tongue {\n      0%, 20%, 100% { bottom: -80px; }\n      30%, 90% { bottom: -40px; }\n      40% { bottom: -45px; }\n      50% { bottom: -50px; }\n      70% { bottom: -80px; }\n      90% { bottom: -40px; }\n    }\n  <\/style>\n\n\n \n    <div class=\"tutto monster\">\n      <div class=\"monster__face\">\n        <div class=\"monster__eyes\">\n          <div class=\"monster__eye\"><\/div>\n          <div class=\"monster__eye\"><\/div>\n        <\/div>\n        <div class=\"monster__mouth\">\n          <div class=\"monster__top\"><\/div>\n          <div class=\"monster__bottom\"><\/div>\n        <\/div>\n      <\/div>\n    <\/div>","color_scheme":"","padding_top":40,"padding_bottom":52}},"1752246669e8da61e4":{"type":"apps","blocks":{"feedaty_official_merchant_widget_ak33iz":{"type":"shopify:\/\/apps\/feedaty-official\/blocks\/merchant-widget\/1597c10b-7e15-4dee-9287-4aa2114f0e9c","settings":{"merchant_code":"10215410","data_variant":"Sticky-1","data_id":"selettore1"}}},"block_order":["feedaty_official_merchant_widget_ak33iz"],"custom_css":[".fdt_merchantSticky-1_widget {top: 90%;}"],"settings":{"include_margins":true}}},"order":["rich_text_qJmM8X","image_banner","17522467659b6d9e7c","multicolumn_UDtjW4","collection_list_LdPRNf","featured_collection_Vetbc7","featured_collection_MGG4wQ","featured_collection_3iWgQE","custom_benefits_hJizPD","custom_liquid_mUD4Fe","rich_text_yc3XBN","rich_text_MQFWWt","image_banner_YEfcej","rich_text_VJ4wq4","multicolumn_z6HRPm","175224620929428f15","featured_blog_pLcCqM","image_with_text_6GMNEP","custom_liquid_E7FqF7","newsletter_xaPTfa","custom_liquid_3TQTcr","1752246669e8da61e4"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_qJmM8X": {
+      "type": "rich-text",
+      "blocks": {
+        "text_j3DHfR": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>PERSONALIZZA CON PATCH E RICAMI</strong></p>"
+          }
+        },
+        "heading_7neAUC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Acquista il grembiule perfetto per i tuoi bimbi!",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_j3DHfR",
+        "heading_7neAUC"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg); font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 5.5vw, 72px); max-width: 100%; margin: auto; line-height: 110%;}",
+        "p {transform: skewY(-7deg); line-height: 110%; padding-bottom: 10px; text-wrap: balance;}",
+        "@media (min-width: 768px) {h2 {max-width: 100%; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-76801a77-90c5-48fc-aa74-014c29761c77",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg); font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 5.5vw, 72px); max-width: 100%; margin: auto; line-height: 100%; margin-top: -20px;}",
+        "p {transform: skewY(-7deg);}",
+        "@media (min-width: 768px) {h2 {max-width: 65%; }}",
+        "@media (min-width: 768px) {p {margin-top: -10px; }}",
+        "#Banner-template--24989804331334__image_banner {z-index: 1;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hero_principale_6f4dfae5-f2be-45a8-8f2e-d2284e00d2ad.jpg",
+        "image_mobile": "shopify://shop_images/hero_principale_mobile.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-center",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "top",
+        "show_text_box": false,
+        "show_text_below": false
+      }
+    },
+    "17522467659b6d9e7c": {
+      "type": "apps",
+      "blocks": {
+        "feedaty_official_carousel_widget_PhDQdT": {
+          "type": "shopify://apps/feedaty-official/blocks/carousel-widget/1597c10b-7e15-4dee-9287-4aa2114f0e9c",
+          "settings": {
+            "merchant_code": "10215410",
+            "data_variant": "carosello-2",
+            "data_id": "selettore9"
+          }
+        }
+      },
+      "block_order": [
+        "feedaty_official_carousel_widget_PhDQdT"
+      ],
+      "custom_css": [
+        "{margin: 30px auto;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "multicolumn_UDtjW4": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wPBLk3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Asilo1.jpg",
+            "image_hover": "shopify://shop_images/grembiuli_asilo_hover.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "GREMBIULI PER ASILO",
+            "link": "shopify://collections/collezione-asilo"
+          }
+        },
+        "column_JNCyFh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Elementare1_4c745563-db49-49ae-bcb8-9923a3bdf892.jpg",
+            "image_hover": "shopify://shop_images/grembiuli_scuola_hover.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "GREMBIULI PER SCUOLA",
+            "link": "shopify://collections/collezione-scuola"
+          }
+        }
+      },
+      "block_order": [
+        "column_wPBLk3",
+        "column_JNCyFh"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 52px); margin: auto; line-height: 100%; margin-top: 40px; /* tieni questo */ mix-blend-mode: darken; text-align: center; margin-bottom: 60px;}",
+        "@media (min-width: 1024px) {h2 {max-width: 45%; }}",
+        "a {font-size: 20px;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Asilo o scuola elementare?",
+        "heading_size": "h1",
+        "background_position": "center",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_LdPRNf": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_TQiJdU": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grembiule-asilo-bimba"
+          }
+        },
+        "featured_collection_JzkFRE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "grembiule-scuola-bimba"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_TQiJdU",
+        "featured_collection_JzkFRE"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 52px); max-width: 55%; margin: auto; line-height: 100%; margin-top: -10px; mix-blend-mode: darken; text-align: center; margin-bottom: 60px; margin-top: 40px;}"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Asilo o scuola elementare?",
+        "heading_size": "h1",
+        "image_ratio": "portrait",
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "featured_collection_Vetbc7": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}",
+        "@media (min-width: 1024px) {h2 {max-width: 55%; }}",
+        "h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "collezione-asilo",
+        "products_to_show": 8,
+        "title": "Da ora inizia una nuova avventura!",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "background_image": "shopify://shop_images/elementare_hero2.jpg",
+        "background_position": "center",
+        "background_opacity": 0,
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_MGG4wQ": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(38px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}",
+        "@media (min-width: 1024px) {h2 {max-width: 55%; }}",
+        "h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "collezione-scuola",
+        "products_to_show": 8,
+        "title": "Prepara lo zaino, e via col grembiule!",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "background_image": "shopify://shop_images/scolastico_hero3.jpg",
+        "background_position": "bottom",
+        "background_opacity": 0,
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-3",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "featured_collection_3iWgQE": {
+      "type": "featured-collection",
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center; margin-bottom: 120px;}",
+        "@media (min-width: 1024px) {h2 {max-width: 55%; }}",
+        "h3 {font-family: \"Figtree\", sans-serif; font-size: clamp(13px, 6vw, 18px); font-weight: 300 !important; padding-right: 30px; padding-bottom: 10px;}"
+      ],
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "collection": "divise-scolastiche",
+        "products_to_show": 7,
+        "title": "Personalizza la divisa scolastica!",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "background_image": "shopify://shop_images/scolastico_hero4.jpg",
+        "background_position": "top",
+        "background_opacity": 0,
+        "columns_desktop": 3,
+        "enable_desktop_slider": true,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "color_scheme": "scheme-3",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "custom_benefits_hJizPD": {
+      "type": "custom-benefits",
+      "blocks": {
+        "benefit_UTJPdD": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/benefit1.png",
+            "heading": "Spedizione gratuita",
+            "text": "Per ordini superiori a 99,99€"
+          }
+        },
+        "benefit_7CQaNz": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/benefit2.png",
+            "heading": "Garanzia rimborsi",
+            "text": "Effettua il tuo reso entro 14 giorni"
+          }
+        },
+        "benefit_BpXMyB": {
+          "type": "benefit",
+          "settings": {
+            "image": "shopify://shop_images/benefit3.png",
+            "heading": "Chat 24/7",
+            "text": "Richiedi in chat modifiche, personalizzazioni a richiesta"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_UTJPdD",
+        "benefit_7CQaNz",
+        "benefit_BpXMyB"
+      ],
+      "custom_css": [
+        ".custom-benefits {padding-top: 140px !important; padding-bottom: 140px !important;}",
+        "p {line-height: 120%; margin-top: 10px;}",
+        "h3 {font-weight: 600 !important;}"
+      ],
+      "name": "Benefits con icone",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "image_size": "large",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "enable_animation": true
+      }
+    },
+    "custom_liquid_mUD4Fe": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n    body {\n      margin: 0;\n      padding: 0;\n      background-color: #fafafa;\n      font-family: Arial, sans-serif;\n    }\n\n    .benefits-container {\n      display: flex;\n      flex-wrap: wrap;\n      justify-content: space-between;\n      padding: 40px 20px;\n      max-width: 1200px;\n      margin: 0 auto;\n    }\n\n    .benefit-box {\n      display: flex;\n      align-items: center;\n      width: 100%;\n      margin-bottom: 30px;\n    }\n\n    .benefit-box img {\n      width: 64px;\n      height: auto;\n      margin-right: 20px;\n    }\n\n\n\n\n    @media (min-width: 768px) {\n      .benefit-box {\n        width: 30%;\n        margin-bottom: 0;\n      }\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"benefits-container\">\n    <div class=\"benefit-box\">\n      <img src=\"icon1.png\" alt=\"Spedizione gratuita\">\n      <div class=\"benefit-content\">\n        <h3>Spedizione gratuita</h3>\n        <p>Per ordini superiori a 55€</p>\n      </div>\n    </div>\n    <div class=\"benefit-box\">\n      <img src=\"icon2.png\" alt=\"Garanzia rimborsi\">\n      <div class=\"benefit-content\">\n        <h3>Garanzia rimborsi</h3>\n        <p>Effettua il tuo reso entro 14 giorni</p>\n      </div>\n    </div>\n    <div class=\"benefit-box\">\n      <img src=\"icon3.png\" alt=\"Chat 24/7\">\n      <div class=\"benefit-content\">\n        <h3>Chat 24/7</h3>\n        <p>Richiedi in chat modifiche, personalizzazioni a richiesta</p>\n      </div>\n    </div>\n  </div>\n\n</body>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_yc3XBN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LneELj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>E SE AGGIUNGESSIMO...</p>"
+          }
+        },
+        "heading_7VFTiW": {
+          "type": "heading",
+          "settings": {
+            "heading": "il suo nome o una patch?",
+            "heading_size": "h1"
+          }
+        },
+        "button_pFrpjM": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI COME",
+            "button_link": "shopify://pages/i-nostri-lavori",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_LneELj",
+        "heading_7VFTiW",
+        "button_pFrpjM"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center;}",
+        "@media (min-width: 1024px) {h2 {max-width: 55%; }}",
+        "p {transform: skewY(-7deg);}",
+        ".button {margin-top: 40px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_MQFWWt": {
+      "type": "rich-text",
+      "blocks": {
+        "text_VfiL3R": {
+          "type": "text",
+          "settings": {
+            "text": "<p>E SE AGGIUNGESSIMO...</p>"
+          }
+        },
+        "heading_VqEkic": {
+          "type": "heading",
+          "settings": {
+            "heading": "il suo nome o una patch?",
+            "heading_size": "h1"
+          }
+        },
+        "button_drgNjp": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI COME",
+            "button_link": "shopify://pages/i-nostri-lavori",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "text_VfiL3R",
+        "heading_VqEkic",
+        "button_drgNjp"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_YEfcej": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/hero_patch.jpg",
+        "image_mobile": "shopify://shop_images/hero_patch_mobile.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "top-left",
+        "desktop_content_alignment": "center",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "middle",
+        "show_text_box": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_VJ4wq4": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BwgzPH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DI CHE TEAM SEI?</p>"
+          }
+        },
+        "heading_BGRqQb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Grembiuli con zip o bottone?",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_BwgzPH",
+        "heading_BGRqQb"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 62px); margin: auto; line-height: 100%; text-align: center;}",
+        "@media (min-width: 1024px) {h2 {max-width: 55%; }}",
+        "p {transform: skewY(-7deg);}",
+        ".button {margin-top: 40px;}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_z6HRPm": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_eEUpnF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grembiule_asilo_zip_1b73442c-a3b6-444a-907a-59a24b53403b.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Grembiuli asilo con zip",
+            "link": "https://ilgrembiulino.com/collections/collezione-asilo?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=con+zip&sort_by=best-selling"
+          }
+        },
+        "column_tzkdbk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grembiule_asilo_bottone.png",
+            "title": "",
+            "text": "",
+            "link_label": "Grembiuli asilo con bottone",
+            "link": "https://ilgrembiulino.com/collections/collezione-asilo?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=abbottonatura+centrale&filter.p.m.custom.tipologia_grembiule=abbottonatura+laterale&sort_by=best-selling"
+          }
+        },
+        "column_xxUN4N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grembiule_scuola_bottone.png",
+            "title": "",
+            "text": "",
+            "link_label": "Grembiuli scuola con bottone",
+            "link": "https://ilgrembiulino.com/collections/collezione-scuola?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=abbottonatura+centrale&filter.p.m.custom.tipologia_grembiule=abbottonatura+laterale&sort_by=best-selling"
+          }
+        },
+        "column_AUWFMU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/grembiule_scuola_zip.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Grembiuli scuola con zip",
+            "link": "https://ilgrembiulino.com/collections/collezione-scuola?filter.v.price.gte=&filter.v.price.lte=&filter.p.m.custom.tipologia_grembiule=con+zip&sort_by=best-selling"
+          }
+        }
+      },
+      "block_order": [
+        "column_eEUpnF",
+        "column_tzkdbk",
+        "column_xxUN4N",
+        "column_AUWFMU"
+      ],
+      "custom_css": [
+        ".multicolumn-card__info {text-align: center; background-color: #fff; margin-top: -30px;}",
+        ".link {text-decoration: none; display: inline-flex; align-items: center; color: #333;}",
+        ".link-text {transition: color 0.3s ease, font-weight 0.3s ease; font-weight: normal;}",
+        ".link:hover .link-text {color: #0077cc; font-weight: bold;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "background_image": "shopify://shop_images/bottone_4b7a7d91-5f54-442f-8f12-ab7eb730d605.jpg",
+        "background_position": "top",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "175224620929428f15": {
+      "type": "apps",
+      "custom_css": [],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "featured_blog_pLcCqM": {
+      "type": "featured-blog",
+      "name": "t:sections.featured-blog.presets.name",
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "heading": "Articoli del blog",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "show_view_all": true,
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_6GMNEP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iteMTh": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_jTFgt4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I grembiuli de \"ilgrembiulino.com\" sono firmati SIGGI GROUP, sinonimo di qualità, attenzione ai dettagli e esperienza nel settore.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iteMTh",
+        "text_jTFgt4"
+      ],
+      "custom_css": [
+        "div {background-color: #fafafa;}",
+        "img {mix-blend-mode: darken;}",
+        "@media (min-width: 768px) {div {justify-content: center; align-content: center; } .image-with-text__media {justify-self: center; } img {height: auto; align-self: center; left: 20%; position: relative; } p {width: 60%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/SIGGI-LOGO-2017-01-new_bd1a3b55-fd79-4a51-ba1d-acb3339d6236.jpg",
+        "height": "small",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "image_behavior": "none",
+        "content_layout": "overlap",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "mobile_content_alignment": "left",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "custom_liquid_E7FqF7": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".tutto {background-image: url(\"https://cdn.shopify.com/s/files/1/0560/4596/1267/files/Prova_animazione.jpg?v=1747856526\"); background-size: cover; background-position: center center; background-repeat: no-repeat; background-color: #fafafa;}",
+        "@media (max-width: 768px) {.tutto {background-size: 170%; background-position: bottom center; background-repeat: no-repeat; } .animated-eyes-container {transform: scale(0.4); transform-origin: bottom center; height: 400px; padding-bottom: 80px; }}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"tutto\"><div class=\"animated-eyes-container\">\n  <style> \n    .animated-eyes-container {\n      width: 100%;\nheight:650px;\n      display: flex;\n      justify-content: center;\n      align-items: end;\n      position: relative;\n      z-index: 1;\n    }\n\n    \n    .contain-eyes { \n      margin: 180px auto; \n      width: 400px; \n      position: relative;\n      z-index: 2;\n    } \n\n    \n    .outer-eye { \n      position: relative; \n      display: inline-block; \n      background: white !important; \n      border-radius: 50% !important; \n      width: 150px !important; \n      height: 130px !important; \n      margin: 0 10px;\n      overflow: visible !important;\ntransform: rotate(0.10turn);\n    } \n    \n    .outer-eye-2 { \n      left: 0px; \n    } \n    \n    .inner-eye { \n      position: absolute !important; \n      top: 45px !important;\n      left: 75px !important;\n      background: black !important; \n      border-top-left-radius: 50% !important; \nborder-bottom-left-radius: 40% !important; \nborder-bottom-right-radius: 30% !important; \nborder-top-right-radius: 30% !important; \n      width: 60px !important; \n      height: 60px !important; \n      animation: shifty 3s infinite !important; \n      z-index: 5 !important;\n      display: block !important;\n    } \n    \n    @keyframes shifty { \n      0% {\n        transform: translateX(0) translateY(0);\n      }\n      50% { \n        transform: translateX(-15px); \n      } \n      75% { \n        transform: translateY(-15px) translateX(-5px); \n      }\n      100% {\n        transform: translateX(0) translateY(0);\n      }\n    } \n  </style> \n  <div class=\"contain-eyes\">  \n    <div class=\"outer-eye\"> \n      <div class=\"inner-eye\"></div> \n    </div> \n    <div class=\"outer-eye outer-eye-2\"> \n      <div class=\"inner-eye\"></div> \n    </div> \n  </div>\n</div>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "newsletter_xaPTfa": {
+      "type": "newsletter",
+      "blocks": {
+        "paragraph_WpQdJi": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>ENTRA A FAR PARTE DEL TEAM!</p>"
+          }
+        },
+        "heading_nKBRpf": {
+          "type": "heading",
+          "settings": {
+            "heading": "iscriviti alla newsletter!",
+            "heading_size": "h1"
+          }
+        },
+        "email_form_NbNDGH": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "paragraph_WpQdJi",
+        "heading_nKBRpf",
+        "email_form_NbNDGH"
+      ],
+      "custom_css": [
+        "h2 {transform: skewY(-7deg) !important; font-family: \"Playwrite IT Moderna\", cursive; letter-spacing: -2px; font-feature-settings: \"liga\" 1, \"calt\" 1; font-variant-ligatures: common-ligatures contextual; font-size: clamp(42px, 6vw, 72px); max-width: 60%; margin: auto; margin-bottom: 60px; line-height: 100%; mix-blend-mode: darken;}",
+        "p {transform: skewY(-7deg);}",
+        "input {background-color: #fff;}"
+      ],
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 100
+      }
+    },
+    "custom_liquid_3TQTcr": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        ".tutto {background-image: url(\"https://cdn.shopify.com/s/files/1/0560/4596/1267/files/Prova_animazione.jpg?v=1747856526\"); background-size: cover; /* Copre tutta l'area tagliando ai lati */ background-position: center center; /* Centra l'immagine */ background-repeat: no-repeat;}",
+        "@media (max-width: 768px) {.tutto {background-size: 180%; background-position: top center; background-repeat: no-repeat; }}",
+        "@media (max-width: 768px) {.animated-eyes-container {transform: scale(0.4); transform-origin: bottom center; height: 300px; }}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<style>\n\n\n    /* Colori (variabili SCSS convertite) */\n    :root {\n      --bg: #1C27B5;\n      --blue: #3C47D7;\n      --blue-s: #07129C;\n      --black: #000000;\n      --yellow: #FFC333;\n      --red-1: #810332;\n      --red-2: #400018;\n      --pink: #DC1B50;\n      --white: #ffffff;\n    }\n\n    body {\n\n      justify-content: center;\n      align-items: flex-end;\n      width: 100%;\n      height: 100%;\n      background-color: var(--bg);\n    }\n\n  \n\n    @media (max-width: 800px) { .main { transform: scale(.7); } }\n    @media (max-width: 700px) { .main { transform: scale(.6); } }\n    @media (max-width: 500px) { .main { transform: scale(.5); } }\n    @media (max-width: 400px) { .main { transform: scale(.3); } }\n\n    .monster {\n      display: flex;\n      justify-content: center;\n      position: relative;\n      width: 370px;\n      height: 490px;\n    }\n\n    .monster__face {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      flex-direction: column;\n      position: absolute;\n      top: 19%;\n      width: 75%;\n      height: 200px;\n    }\n\n    .monster__eyes {\n      display: flex;\n      justify-content: space-between;\n      width: 28%;\n      height: auto;\n      margin-bottom: 10px;\n    }\n\n    .monster__eye {\n      width: 17px;\n      height: 30px;\n      border-radius: 20px;\n      background: var(--black);\n    }\n\n    .monster__mouth {\n      display: flex;\n      justify-content: center;\n      align-items: center;\n      position: relative;\n      width: 100%;\n      height: 0%;\n      overflow: hidden;\n      border: 25px solid var(--yellow);\n      border-radius: 100px;\n      background-color: var(--red-1);\n      animation: mouth 1.75s infinite;\n    }\n\n    .monster__mouth::before {\n      content: '';\n      position: absolute;\n      width: 150px;\n      height: 80px;\n      border-radius: 100px;\n      background-color: var(--red-2);\n    }\n\n    .monster__mouth::after {\n      content: '';\n      position: absolute;\n      bottom: -80px;\n      width: 160px;\n      height: 80px;\n      border-top-left-radius: 50%;\n      border-top-right-radius: 50%;\n      background-color: var(--pink);\n      animation: tongue 1.75s infinite;\n    }\n\n    .monster__top {\n      position: absolute;\n      top: -30px;\n      width: 170px;\n      height: 30px;\n      border-bottom-left-radius: 10px;\n      border-bottom-right-radius: 10px;\n      background-color: var(--white);\n      z-index: 100;\n      animation: t 1.75s infinite;\n    }\n\n    .monster__bottom {\n      position: absolute;\n      bottom: 0;\n      width: 100px;\n      height: 30px;\n      border-top-left-radius: 10px;\n      border-top-right-radius: 10px;\n      background-color: var(--white);\n      z-index: 100;\n      animation: b 1.75s infinite;\n    }\n\n    @keyframes t {\n      0%, 10%, 80%, 100% { top: -30px; }\n      20% { top: 0px; }\n      30% { top: -20px; }\n      40% { top: 0px; }\n      50% { top: -25px; }\n      70% { top: 0px; }\n    }\n\n    @keyframes b {\n      0%, 10%, 80%, 100% { bottom: -30px; }\n      20% { bottom: 0px; }\n      30% { bottom: -20px; }\n      40% { bottom: 0px; }\n      50% { bottom: -25px; }\n      70% { bottom: 0px; }\n    }\n\n    @keyframes mouth {\n      0%, 10%, 100% { width: 100%; height: 0%; }\n      15% { width: 90%; height: 30%; }\n      20% { width: 50%; height: 70%; }\n      25% { width: 70%; height: 70%; }\n      30% { width: 80%; height: 60%; }\n      35% { width: 60%; height: 70%; }\n      40% { width: 55%; height: 75%; }\n      45% { width: 50%; height: 90%; }\n      50% { width: 40%; height: 70%; }\n      55% { width: 70%; height: 95%; }\n      60% { width: 40%; height: 50%; }\n      65% { width: 100%; height: 60%; }\n      70% { width: 100%; height: 70%; }\n      75% { width: 90%; height: 70%; }\n      80% { width: 50%; height: 70%; }\n      85% { width: 90%; height: 50%; }\n      85% { width: 40%; height: 70%; }\n      90% { width: 90%; height: 30%; }\n      95% { width: 100%; height: 10%; }\n    }\n\n    @keyframes tongue {\n      0%, 20%, 100% { bottom: -80px; }\n      30%, 90% { bottom: -40px; }\n      40% { bottom: -45px; }\n      50% { bottom: -50px; }\n      70% { bottom: -80px; }\n      90% { bottom: -40px; }\n    }\n  </style>\n\n\n \n    <div class=\"tutto monster\">\n      <div class=\"monster__face\">\n        <div class=\"monster__eyes\">\n          <div class=\"monster__eye\"></div>\n          <div class=\"monster__eye\"></div>\n        </div>\n        <div class=\"monster__mouth\">\n          <div class=\"monster__top\"></div>\n          <div class=\"monster__bottom\"></div>\n        </div>\n      </div>\n    </div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1752246669e8da61e4": {
+      "type": "apps",
+      "blocks": {
+        "feedaty_official_merchant_widget_ak33iz": {
+          "type": "shopify://apps/feedaty-official/blocks/merchant-widget/1597c10b-7e15-4dee-9287-4aa2114f0e9c",
+          "settings": {
+            "merchant_code": "10215410",
+            "data_variant": "Sticky-1",
+            "data_id": "selettore1"
+          }
+        }
+      },
+      "block_order": [
+        "feedaty_official_merchant_widget_ak33iz"
+      ],
+      "custom_css": [
+        ".fdt_merchantsticky-1_widget {top: 90%;}"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "rich_text_qJmM8X",
+    "image_banner",
+    "17522467659b6d9e7c",
+    "multicolumn_UDtjW4",
+    "collection_list_LdPRNf",
+    "featured_collection_Vetbc7",
+    "featured_collection_MGG4wQ",
+    "featured_collection_3iWgQE",
+    "custom_benefits_hJizPD",
+    "custom_liquid_mUD4Fe",
+    "rich_text_yc3XBN",
+    "rich_text_MQFWWt",
+    "image_banner_YEfcej",
+    "rich_text_VJ4wq4",
+    "multicolumn_z6HRPm",
+    "175224620929428f15",
+    "featured_blog_pLcCqM",
+    "image_with_text_6GMNEP",
+    "custom_liquid_E7FqF7",
+    "newsletter_xaPTfa",
+    "custom_liquid_3TQTcr",
+    "1752246669e8da61e4"
+  ]
+}
