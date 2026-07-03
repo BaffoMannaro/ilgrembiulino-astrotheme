@@ -57,7 +57,7 @@
 
     {%- comment -%}
       Overlay per-prodotto via metafield (namespace "custom", key "overlay_*"). Input:
-        - overlay_cuore_top: top del nome Lato cuore; la patch usa top = cuore_top + 1
+        - overlay_cuore_top: top del nome Lato cuore; la patch usa top = cuore_top + 2
         - overlay_left: left condiviso da patch e nome Lato cuore
         - overlay_colletto_top / _left / _rotation: nome Colletto
       Un metafield VUOTO ricade sulla base globale (section.settings.default_*),
@@ -68,7 +68,7 @@
     {%- assign mf_cuore_top = product.metafields.custom.overlay_cuore_top.value | default: section.settings.default_cuore_top -%}
     {%- assign mf_left = product.metafields.custom.overlay_left.value | default: section.settings.default_left -%}
     #MainProduct-{{ section.id }}{
-      --patch-overlay-top:{{ mf_cuore_top | plus: 1 }}%;
+      --patch-overlay-top:{{ mf_cuore_top | plus: 2 }}%;
       --patch-overlay-right:auto;
       --patch-overlay-bottom:auto;
       --patch-overlay-left:{{ mf_left }}%;
