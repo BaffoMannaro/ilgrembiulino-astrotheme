@@ -56,17 +56,15 @@
     }
 
     {%- comment -%}
-      Overlay per-prodotto via metafield (namespace "custom", key "overlay_*"). Input:
-        - overlay_cuore_top: top del nome Lato cuore; la patch usa top = cuore_top + 2
-        - overlay_left: left condiviso da patch e nome Lato cuore
-        - overlay_colletto_top / _left / _rotation: nome Colletto
-      Un metafield VUOTO ricade sulla base globale (section.settings.default_*),
-      così i prodotti nuovi partono gia' posizionati e si compila solo cio' che cambia.
+      Overlay per-prodotto via metafield (namespace "overlay"). Input minimi:
+        - cuore_top: top del nome Lato cuore; la patch usa top = cuore_top + 1
+        - left: left condiviso da patch e nome Lato cuore
+        - colletto_top / colletto_left / colletto_rotation: nome Colletto
       Right/bottom = auto (posizionamento solo da top+left). Cuore senza rotazione.
       La patch scuola resta configurata da section.settings (globale).
     {%- endcomment -%}
-    {%- assign mf_cuore_top = product.metafields.custom.overlay_cuore_top.value | default: section.settings.default_cuore_top -%}
-    {%- assign mf_left = product.metafields.custom.overlay_left.value | default: section.settings.default_left -%}
+    {%- assign mf_cuore_top = product.metafields.custom.overlay_cuore_top.value | default: 0 -%}
+    {%- assign mf_left = product.metafields.custom.overlay_left.value | default: 0 -%}
     #MainProduct-{{ section.id }}{
       --patch-overlay-top:{{ mf_cuore_top | plus: 2 }}%;
       --patch-overlay-right:auto;
@@ -81,11 +79,11 @@
       --text-pos-cuore-bottom:auto;
       --text-pos-cuore-left:{{ mf_left }}%;
       --text-pos-cuore-rotation:0deg;
-      --text-pos-colletto-top:{{ product.metafields.custom.overlay_colletto_top.value | default: section.settings.default_colletto_top }}%;
+      --text-pos-colletto-top:{{ product.metafields.custom.overlay_colletto_top.value | default: 0 }}%;
       --text-pos-colletto-right:auto;
       --text-pos-colletto-bottom:auto;
-      --text-pos-colletto-left:{{ product.metafields.custom.overlay_colletto_left.value | default: section.settings.default_colletto_left }}%;
-      --text-pos-colletto-rotation:{{ product.metafields.custom.overlay_colletto_rotation.value | default: section.settings.default_colletto_rotation }}deg;
+      --text-pos-colletto-left:{{ product.metafields.custom.overlay_colletto_left.value | default: 0 }}%;
+      --text-pos-colletto-rotation:{{ product.metafields.custom.overlay_colletto_rotation.value | default: 0 }}deg;
     }
 
     .product__media-patch-applicate{
@@ -3226,57 +3224,7 @@
     },
     {
       "type": "paragraph",
-      "content": "Le posizioni di patch e nome si impostano nei metafield del prodotto (custom.overlay_*). I valori qui sotto sono la BASE usata quando un metafield è vuoto: compili il metafield solo per i prodotti che si discostano."
-    },
-    {
-      "type": "header",
-      "content": "Overlay — valori di base (usati se il metafield è vuoto)"
-    },
-    {
-      "type": "range",
-      "id": "default_cuore_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 28,
-      "label": "Base — Top Lato cuore (%)"
-    },
-    {
-      "type": "range",
-      "id": "default_left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 52,
-      "label": "Base — Left condiviso (%)"
-    },
-    {
-      "type": "range",
-      "id": "default_colletto_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 21,
-      "label": "Base — Top Colletto (%)"
-    },
-    {
-      "type": "range",
-      "id": "default_colletto_left",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "default": 51,
-      "label": "Base — Left Colletto (%)"
-    },
-    {
-      "type": "range",
-      "id": "default_colletto_rotation",
-      "min": -180,
-      "max": 180,
-      "step": 5,
-      "default": -45,
-      "unit": "°",
-      "label": "Base — Rotazione Colletto"
+      "content": "Le posizioni di patch e nome (Lato cuore / Colletto) si impostano ora nei metafield del singolo prodotto (namespace \"overlay\")."
     },
     {
       "type": "header",
