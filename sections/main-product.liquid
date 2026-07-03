@@ -154,8 +154,7 @@
     align-items: flex-start;
     --text-shift: 0px;
     --text-rotation: 0deg;
-    transform: translateY(var(--text-shift)) rotate(var(--text-rotation));
-    transform-origin: center center;
+    transform: translateY(var(--text-shift));
     }
 
     .product__media-patch-text-applicate[data-embroidery-location="cuore"]{
@@ -216,6 +215,8 @@
       font-size:1.5rem;
       font-weight:700;
       text-shadow:none;
+      transform: rotate(var(--text-rotation));
+      transform-origin: center center;
     }
 
     .product__media-school-patch-applicate{
