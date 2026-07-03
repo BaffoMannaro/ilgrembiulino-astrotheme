@@ -140,6 +140,14 @@
       object-fit:contain;
     }
 
+    @media screen and (min-width: 750px) {
+      .product__media-patch-applicate img[data-patch-group="tifo"],
+      .product__media-patch-applicate img[data-patch-group="bimbo"]{
+        width:30px !important;
+        height:30px !important;
+      }
+    }
+
     .product__media-patch-text-applicate{
     position: absolute !important;
     top: var(--patch-overlay-top) !important;
@@ -148,6 +156,7 @@
     left: var(--patch-overlay-left) !important;
     width: 100px !important;
     max-width: 100px;
+    height: fit-content;
     pointer-events: none;
     z-index: 2;
     display: flex !important;
@@ -203,7 +212,7 @@
       }
 
       .product__media-patch-text-applicate .product__media-patch-text{
-        font-size:0.5rem !important;
+        font-size:0.4rem !important;
       }
     }
 
@@ -212,7 +221,7 @@
       white-space:pre-line;
       overflow-wrap:anywhere;
       line-height:1.05;
-      font-size:1.5rem;
+      font-size:1rem !important;
       font-weight:700;
       text-shadow:none;
       transform: rotate(var(--text-rotation));
