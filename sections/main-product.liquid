@@ -86,6 +86,7 @@
       --text-pos-colletto-bottom:auto;
       --text-pos-colletto-left:{{ product.metafields.custom.overlay_colletto_left.value | default: section.settings.default_colletto_left }}%;
       --text-pos-colletto-rotation:{{ product.metafields.custom.overlay_colletto_rotation.value | default: section.settings.default_colletto_rotation }}deg;
+      --colletto-max-width:{{ section.settings.colletto_max_width | default: 45 }}%;
     }
 
     .product__media-patch-applicate{
@@ -177,7 +178,7 @@
       bottom: var(--text-pos-colletto-bottom) !important;
       left: var(--text-pos-colletto-left) !important;
       width: max-content !important;
-      max-width: none !important;
+      max-width: var(--colletto-max-width) !important;
       --text-rotation: var(--text-pos-colletto-rotation);
     }
 
@@ -460,6 +461,17 @@
         };
       };
 
+      // Colletto: se il nome eccede la larghezza massima del box, riduce il font
+      // quel tanto che basta per stare su una riga (mai a capo).
+      const fitTextToWidth = (container, textEl) => {
+        const available = container.clientWidth;
+        const needed = textEl.scrollWidth;
+        if (available > 0 && needed > available + 1) {
+          const baseSize = parseFloat(getComputedStyle(textEl).fontSize) || 16;
+          textEl.style.setProperty('font-size', (baseSize * available / needed) + 'px', 'important');
+        }
+      };
+
       const renderPatchText = ({
         text = '',
         color = '',
@@ -498,6 +510,10 @@
           });
 
           target.appendChild(textEl);
+
+          if (locationKey === 'colletto') {
+            fitTextToWidth(target, textEl);
+          }
         });
       };
 
@@ -3285,6 +3301,17 @@
       "default": -45,
       "unit": "°",
       "label": "Base — Rotazione Colletto"
+    },
+    {
+      "type": "range",
+      "id": "colletto_max_width",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "default": 45,
+      "unit": "%",
+      "label": "Colletto — larghezza max nome (% immagine)",
+      "info": "Oltre questa larghezza il nome si rimpicciolisce invece di andare a capo."
     },
     {
       "type": "header",
