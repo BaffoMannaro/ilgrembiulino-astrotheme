@@ -86,7 +86,7 @@
       --text-pos-colletto-bottom:auto;
       --text-pos-colletto-left:{{ product.metafields.custom.overlay_colletto_left.value | default: section.settings.default_colletto_left }}%;
       --text-pos-colletto-rotation:{{ product.metafields.custom.overlay_colletto_rotation.value | default: section.settings.default_colletto_rotation }}deg;
-      --colletto-max-width:{{ section.settings.colletto_max_width | default: 15 }}%;
+      --colletto-max-width:{{ section.settings.colletto_max_width | default: 10 }}%;
     }
 
     .product__media-patch-applicate{
@@ -3308,7 +3308,7 @@
       "min": 5,
       "max": 100,
       "step": 1,
-      "default": 15,
+      "default": 10,
       "unit": "%",
       "label": "Colletto — larghezza max nome (% immagine)",
       "info": "Oltre questa larghezza il nome si rimpicciolisce invece di andare a capo."
