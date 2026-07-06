@@ -182,10 +182,11 @@
       --text-rotation: var(--text-pos-colletto-rotation);
     }
 
-    /* Colletto: nome sempre su una riga, mai a capo */
+    /* Colletto: nome sempre su una riga, mai a capo, e font ridotto di 2/3 (resta 1/3) */
     .product__media-patch-text-applicate[data-embroidery-location="colletto"] .product__media-patch-text{
       white-space: nowrap !important;
       overflow-wrap: normal !important;
+      font-size: calc(1rem / 3) !important;
     }
 
     /* Lo shift anti-sovrapposizione con le patch vale solo nel fallback generico (nessuna location dedicata) */
